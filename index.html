@@ -37,7 +37,7 @@
 					<p>software engineer business developer</p>
 				</header>
 				<footer>
-					<a href="#banner" class="button style3 scrolly">EXPLORE</a>
+					<a href="#gallery" class="button style3 scrolly">EXPLORE</a>
 				</footer>
 				
 			</section>
@@ -109,7 +109,7 @@
 					<p>NoSQL data integrations.</p>
 					<p>Legacy Overhauls.</p>
 				</header>
-				<div class="inner gallery">
+				<div class="inner gallery" id="gallery">
 					<div class="row gtr-0">
 						<div class="col-3 col-12-mobile"><a href="images/fulls/bendigoOpen.PNG" class="image fit"><img src="images/thumbs/bendigoOpen.PNG" alt="" title="Bendigo BBQs mapped out" /></a></div>
 						<div class="col-3 col-12-mobile"><a href="images/fulls/bendigoMenu.PNG" class="image fit"><img src="images/thumbs/bendigoMenu.PNG" alt="" title="Bendigo data switching" /></a></div>
@@ -149,7 +149,11 @@
 			</article>
 -->
 		<!-- Generic -->
-			<article class="container box style3">
+			<!--<article class="container box style3">-->
+
+
+
+
 				<!--<header>-->
 					<!--<h2>Generic Box</h2>-->
 					<!--<p>Just a generic box. Nothing to see here.</p>-->
@@ -258,72 +262,77 @@
 						<!--</table>-->
 					<!--</div>-->
 				<!--</section>-->
-				<section id="form_container">
-					<header>
-						<h3>Let's chat...</h3>
-					</header>
-					<form method="post" id="reused_form" role="form">
-						<div class="row">
-							<!--<div class="col-6 col-12-mobile">-->
-								<!--<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />-->
-							<!--</div>-->
-							<div class="col-12 col-12-mobile">
-								<input class="form-control" type="email" name="email" id="email" value="" placeholder="eg. christian@rocketmail.com" required/>
-							</div>
-							<!--<div class="col-12">-->
-								<!--<select name="department" id="department">-->
-									<!--<option value="">Choose a department</option>-->
-									<!--<option value="1">Manufacturing</option>-->
-									<!--<option value="2">Administration</option>-->
-									<!--<option value="3">Support</option>-->
-								<!--</select>-->
-							<!--</div>-->
-							<!--<div class="col-12">-->
-								<!--<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />-->
-							<!--</div>-->
-							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Enter your message..." maxlength="12000" required></textarea>
-							</div>
 
-                            <!-- CAPTCHA
 
-                            <div class="row" style="margin-bottom:30px;">-->
-                                <!--<div class="col-sm-5">-->
-                                    <!--<br/> <a id="captcha_reload" href="#">reload</a>-->
-                                <!--</div>-->
-                                <!--<div class="col-sm-6">-->
-                                    <!--<label for="email">Enter the code from the image here:</label>-->
-                                    <!--<input type="text" class="form-control" required id="captcha" name="captcha" >-->
-                                <!--</div>-->
+
+
+                <!---->
+				<!--<section id="form_container">-->
+					<!--<header>-->
+						<!--<h3>Let's chat...</h3>-->
+					<!--</header>-->
+					<!--<form method="post" id="reused_form" role="form">-->
+						<!--<div class="row">-->
+							<!--&lt;!&ndash;<div class="col-6 col-12-mobile">&ndash;&gt;-->
+								<!--&lt;!&ndash;<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />&ndash;&gt;-->
+							<!--&lt;!&ndash;</div>&ndash;&gt;-->
+							<!--<div class="col-12 col-12-mobile">-->
+								<!--<input class="form-control" type="email" name="email" id="email" value="" placeholder="eg. christian@rocketmail.com" required/>-->
+							<!--</div>-->
+							<!--&lt;!&ndash;<div class="col-12">&ndash;&gt;-->
+								<!--&lt;!&ndash;<select name="department" id="department">&ndash;&gt;-->
+									<!--&lt;!&ndash;<option value="">Choose a department</option>&ndash;&gt;-->
+									<!--&lt;!&ndash;<option value="1">Manufacturing</option>&ndash;&gt;-->
+									<!--&lt;!&ndash;<option value="2">Administration</option>&ndash;&gt;-->
+									<!--&lt;!&ndash;<option value="3">Support</option>&ndash;&gt;-->
+								<!--&lt;!&ndash;</select>&ndash;&gt;-->
+							<!--&lt;!&ndash;</div>&ndash;&gt;-->
+							<!--&lt;!&ndash;<div class="col-12">&ndash;&gt;-->
+								<!--&lt;!&ndash;<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />&ndash;&gt;-->
+							<!--&lt;!&ndash;</div>&ndash;&gt;-->
+							<!--<div class="col-12">-->
+								<!--<textarea name="message" id="message" placeholder="Enter your message..." maxlength="12000" required></textarea>-->
+							<!--</div>-->
+
+                            <!--&lt;!&ndash; CAPTCHA-->
+
+                            <!--<div class="row" style="margin-bottom:30px;">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<div class="col-sm-5">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<br/> <a id="captcha_reload" href="#">reload</a>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<div class="col-sm-6">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<label for="email">Enter the code from the image here:</label>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<input type="text" class="form-control" required id="captcha" name="captcha" >&ndash;&gt;-->
+                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+							<!--<div class="col-12">-->
+								<!--<ul class="actions">-->
+                                    <!--<button type="submit" class="btn btn-lg btn-default pull-right" >Send →</button>-->
+                                    <!--&lt;!&ndash;<li><input type="reset" class="style3" value="Clear Form" /></li>&ndash;&gt;-->
+								<!--</ul>-->
+
+
+                            <!--<div id="success_message" style="width:100%; height:100%; display:none; ">-->
+                                <!--<h3>Sent successfully!</h3>-->
                             <!--</div>-->
+                            <!--<div id="error_message"-->
+                                 <!--style="width:100%; height:100%; display:none; ">-->
+                                <!--<h3>Error</h3>-->
+                                <!--Please send again-->
 
-
-							<div class="col-12">
-								<ul class="actions">
-                                    <button type="submit" class="btn btn-lg btn-default pull-right" >Send →</button>
-                                    <!--<li><input type="reset" class="style3" value="Clear Form" /></li>-->
-								</ul>
-
-
-                            <div id="success_message" style="width:100%; height:100%; display:none; ">
-                                <h3>Sent successfully!</h3>
-                            </div>
-                            <div id="error_message"
-                                 style="width:100%; height:100%; display:none; ">
-                                <h3>Error</h3>
-                                Please send again
-
-                            </div>
-						</div>
-						</div>
-					</form>
-				</section>
+                            <!--</div>-->
+						<!--</div>-->
+						<!--</div>-->
+					<!--</form>-->
+				<!--</section>-->
 
 
 
 
 
-			</article>
+			<!--</article>-->
 
 		<section id="footer">
 			<ul class="icons">
